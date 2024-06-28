@@ -1,0 +1,20 @@
+/* Styles for Cart Component */
+.offcanvas-body {
+    padding: 1rem;
+}
+
+.list-group-item {
+    padding: 0.75rem 1.25rem;
+}
+
+/* Styles for NavBar Component and Cart Offcanvas */
+@media (min-width: 600px) {
+    .navbar-nav {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .offcanvas {
+        width: 300px; /* Adjust width as needed */
+    }
+}
